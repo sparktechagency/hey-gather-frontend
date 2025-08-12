@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --font-cedarville-cursive: "Cedarville Cursive", serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-geist-sans: 'Geist', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
+
+
+body {
+  padding-inline: 0;
+  font-family: var(--font-poppins), var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.poppins {
+  font-family: var(--font-poppins)
+}
+
+
+
+.responsive-width {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ant-carousel-dot-active {
+  background-color: aqua !important;
+}
